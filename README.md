@@ -1,2 +1,2 @@
-##<p style="text-align: center;">Get <b style="color:blue;">/</b><b style="color:#2c2991;">Fold</b>ed<b style="color:blue;">/</b></p>
+-#Get /Fold</b>ed<b style="color:blue;">/
  A CSS framework for a simple UI without hassle. Yes, there are a lot of frameworks, but this is not your tipical one
