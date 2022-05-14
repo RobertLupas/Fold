@@ -1,20 +1,7 @@
 $radius-big: 10px;
 $radius-small: 4px;
 
-.fld-btn{
-    background-color: #86abf9;
-    border-radius: $radius-small;
-    border-width: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin: 5px;
-    transition: 0.3s;
-}
-.fld-btn:hover{
-    background-color: #6f93e0;
-}
+@use 'buttons';
 
 .fld-container{
     display: inline-block;
