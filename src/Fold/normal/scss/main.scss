@@ -1,6 +1,9 @@
+$radius-big: 10px;
+$radius-small: 4px;
+
 .fld-btn{
     background-color: #86abf9;
-    border-radius: 4px;
+    border-radius: $radius-small;
     border-width: 0;
     padding-left: 10px;
     padding-right: 10px;
@@ -16,7 +19,7 @@
 .fld-container{
     display: inline-block;
     background-color: #c1d4fb;
-    border-radius: 8px;
+    border-radius: $radius-big;
     padding: 10;
     width: auto;
     margin: 5px;
