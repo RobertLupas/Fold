@@ -1,7 +1,7 @@
 $radius-big: 10px;
 $radius-small: 4px;
 
-@use 'buttons';
+@import 'buttons';
 
 .fld-container{
     display: inline-block;
