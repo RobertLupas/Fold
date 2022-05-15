@@ -13,3 +13,12 @@
 .border-big:hover{
     border-color: $normal;
 }
+
+.border-normal-nohovr{
+    border-radius: $radius-small;
+    border: $border-normal;
+}
+.border-big-nohovr{
+    border-radius: $radius-big;
+    border: $border-normal;
+}
