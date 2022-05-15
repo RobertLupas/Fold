@@ -1,0 +1,15 @@
+.border-normal{
+    border-radius: $radius-small;
+    border: $border-normal;
+}
+.border-big{
+    border-radius: $radius-big;
+    border: $border-normal;
+}
+
+.border-normal:hover{
+    border-color: $normal;
+}
+.border-big:hover{
+    bborder-color: $normal;
+}
