@@ -8,10 +8,12 @@ $partially-light: #c1d4fb;
 $light: #a8c2fb;
 $normal: #86abf9;
 $dark: #6893ee;
+$darker: #5d86de;
 
 // borders
-$border-normal: 4px solid $dark;
+$border-normal: 4px solid $darker;
 
 // imports
 @import 'buttons';
 @import 'containers';
+@import 'misc';
