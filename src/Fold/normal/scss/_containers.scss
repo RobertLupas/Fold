@@ -1,0 +1,18 @@
+.fld-container{
+    display: inline-block;
+    background-color: #c1d4fb;
+    border-radius: $radius-big;
+    padding: 10;
+    width: auto;
+    margin: 5px;
+}
+
+.fld-container-border{
+    display: inline-block;
+    background-color: #c1d4fb;
+    border-radius: $radius-big;
+    border: $border-normal;
+    padding: 6;
+    width: auto;
+    margin: 5px;
+}
