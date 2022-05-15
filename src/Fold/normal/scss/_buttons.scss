@@ -12,20 +12,3 @@
 .fld-btn:hover{
     background-color: $dark;
 }
-
-.fld-btn-border{
-    background-color: $normal;
-    border-radius: $radius-small;
-    border: $border-normal;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin: 5px;
-    transition: 0.3s;
-}
-
-.fld-btn-border:hover{
-    background-color: $dark;
-    border-color: $normal;
-}
