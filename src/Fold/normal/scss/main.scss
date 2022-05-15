@@ -9,6 +9,9 @@ $light: #a8c2fb;
 $normal: #86abf9;
 $dark: #6893ee;
 
+// borders
+$border-normal: 4px solid $dark;
+
 // imports
 @import 'buttons';
 
@@ -17,6 +20,16 @@ $dark: #6893ee;
     background-color: #c1d4fb;
     border-radius: $radius-big;
     padding: 10;
+    width: auto;
+    margin: 5px;
+}
+
+.fld-container-border{
+    display: inline-block;
+    background-color: #c1d4fb;
+    border-radius: $radius-big;
+    border: $border-normal;
+    padding: 6;
     width: auto;
     margin: 5px;
 }
