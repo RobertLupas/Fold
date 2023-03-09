@@ -19,6 +19,7 @@
     border: $border-normal;
 }
 .border-big-nohovr{
+    box-sizing: border-box;
     border-radius: $radius-big;
     border: $border-normal;
 }
