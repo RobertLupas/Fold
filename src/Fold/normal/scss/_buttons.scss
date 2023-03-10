@@ -2,6 +2,7 @@ button.f-btn{
     background-color: $normal;
     border-radius: $radius-small;
     border-width: 0;
+    text-overflow: ellipsis;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
