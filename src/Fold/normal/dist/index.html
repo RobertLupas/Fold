@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css\main.min.css">
     <title>Fold Preview</title>
 </head>
-<body>
+<body onload="classTooltip()">
+    <script>function classTooltip(){for(var elements=document.getElementsByTagName("*"),i=0;i<elements.length;i++){var e=elements[i],t=e.getAttribute("class");t&&e.setAttribute("title","Classes added: "+t)}}</script>
     <img src="https://github.com/half-real-SCRACX/Fold/raw/main/Resources/fold-logo-small.png" alt="Fold logo" style="display: inline; width: 50px; margin-right: 10px;"><h1 style="display: inline;">Preview for testing Fold and list of all elements. Not an example project!</h1>
     <hr>
     <h3>Buttons</h3>
