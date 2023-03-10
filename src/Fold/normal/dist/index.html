@@ -7,12 +7,13 @@
     <title>Fold Preview</title>
 </head>
 <body onload="classTooltip()" class="f-font">
-    <script>function classTooltip(){for(var elements=document.getElementsByTagName("*"),i=0;i<elements.length;i++){var e=elements[i],t=e.getAttribute("class");t&&e.setAttribute("title","Classes added: "+t)}}</script>
+    <script>function classTooltip(){for(var elements=document.getElementsByTagName("*"),i=0;i<elements.length;i++){var e=elements[i],t=e.getAttribute("class");"body"!==e.tagName.toLowerCase()&&t&&e.setAttribute("title","Classes added: "+t)}}</script>
     <img src="https://github.com/half-real-SCRACX/Fold/raw/main/Resources/fold-logo-small.png" alt="Fold logo" style="display: inline; width: 50px; margin-right: 10px;"><h1 style="display: inline; font-family: Times New Roman, Times, serif;">Preview for testing Fold <b>+</b> list of all elements. Not an example project!</h1>
     <hr>
     <h3>If The <b>f-font</b> class is applied to <b>body</b>, the Roboto font is automatically applied globally</h3>
     <h3>Buttons</h3>
     <p>Buttons are automatically stiled, without the need of classes</p>
+    <button class="">I'm a Button</button>
     <button class="f-zoom">I'm a Button That Zooms</button>
     <button class="f-border-normal">I'm a Button With A Border</button>
     <button class="f-tilt-i">I'm a Button That Tilts Left</button>
