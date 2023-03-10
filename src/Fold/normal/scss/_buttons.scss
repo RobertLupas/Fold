@@ -1,4 +1,4 @@
-.fld-btn{
+button{
     background-color: $normal;
     border-radius: $radius-small;
     border-width: 0;
@@ -9,6 +9,6 @@
     margin: 5px;
     transition: 0.3s;
 }
-.fld-btn:hover{
+button:hover{
     background-color: $dark;
 }
