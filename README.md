@@ -4,4 +4,6 @@ A complex CSS framework for beutifull UI without hassle.
  <b>/</b>Work In Progress<b>/</b>
 <br>
  <b>/</b>Please Star ⭐!<b>/</b>
+<br>
+If you want to check it out, clone the repo and go to <b>Fold/src/Fold/normal/dist/index.html</b>
 <hr>
