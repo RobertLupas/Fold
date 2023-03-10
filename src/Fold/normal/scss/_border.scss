@@ -1,28 +1,28 @@
-.border-normal{
+.f-border-normal{
     border-radius: $radius-small;
     border: $border-normal;
 }
-.border-big{
+.f-border-big{
     border-radius: $radius-big;
     border: $border-normal;
 }
 
-.border-normal:hover{
+.f-border-normal:hover{
     border-color: $normal;
 }
-.border-big:hover{
+.f-border-big:hover{
     border-color: $normal;
 }
 
-.border-normal-nohovr{
+.f-border-normal-nohovr{
     border-radius: $radius-small;
     border: $border-normal;
 }
-.border-big-nohovr{
+.f-border-big-nohovr{
     border-radius: $radius-big;
     border: $border-normal;
 }
 
-.border-rounded{
+.f-border-rounded{
     border-radius: $radius-rounded;
 }
