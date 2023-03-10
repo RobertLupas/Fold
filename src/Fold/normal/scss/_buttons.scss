@@ -1,4 +1,4 @@
-button{
+button.f-btn{
     background-color: $normal;
     border-radius: $radius-small;
     border-width: 0;
@@ -9,6 +9,6 @@ button{
     margin: 5px;
     transition: 0.3s;
 }
-button:hover{
+button.f-btn:hover{
     background-color: $dark;
 }
