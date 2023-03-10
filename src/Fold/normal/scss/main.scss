@@ -1,5 +1,6 @@
 // radius
 $radius-big: 10px;
+$radius-mid: 6px;
 $radius-small: 4px;
 $radius-rounded: 40px;
 
@@ -13,6 +14,7 @@ $darker: #5d86de;
 
 // borders
 $border-normal: 4px solid $darker;
+$border-thin: 3px solid $darker;
 
 // imports
 @import 'buttons';
@@ -22,3 +24,4 @@ $border-normal: 4px solid $darker;
 @import 'border';
 @import 'global';
 @import 'special';
+@import 'img';

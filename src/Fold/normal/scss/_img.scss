@@ -1,0 +1,9 @@
+img {
+    border-radius: $radius-mid;
+    border: $border-thin;
+}
+
+img.circle {
+    border-radius: 100px;
+    border: $border-thin;
+}
