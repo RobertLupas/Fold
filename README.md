@@ -7,5 +7,5 @@ A complex Web UI framework for beutifull UI without hassle.
 <br>
  <b>/</b>Please Star ⭐!<b>/</b>
 <br>
-If you want to check it out, clone the repo and go to <b>Fold/src/dist/index.html</b>
+If you want to check it out, clone the repo and go to <b>/src/dist/index.html</b>
 <hr>
