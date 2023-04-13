@@ -1,28 +1,28 @@
 .f-border-normal{
-    border-radius: $radius-small;
-    border: $border-normal;
+    border-radius: $radius-small !important;
+    border: $border-normal !important;
 }
 .f-border-big{
     border-radius: $radius-big;
-    border: $border-normal;
+    border: $border-normal !important;
 }
 
 .f-border-normal:hover{
-    border-color: $normal;
+    border-color: $normal !important;
 }
 .f-border-big:hover{
-    border-color: $normal;
+    border-color: $normal !important;
 }
 
 .f-border-normal-nohovr{
-    border-radius: $radius-small;
-    border: $border-normal;
+    border-radius: $radius-small !important;
+    border: $border-normal !important;
 }
 .f-border-big-nohovr{
-    border-radius: $radius-big;
-    border: $border-normal;
+    border-radius: $radius-big !important;
+    border: $border-normal !important;
 }
 
 .f-border-rounded{
-    border-radius: $radius-rounded;
+    border-radius: $radius-rounded !important;
 }
